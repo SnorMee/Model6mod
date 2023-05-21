@@ -148,7 +148,7 @@ for (let i = 0; i < Object.keys(data.children).length; i++) {
     var myColor = d3.scaleLinear()
     .range(['#ffffff','#c92a2a'])
     .domain([0,100]);
-    var color = myColor(String(data['children'][i+1]['numT']) /maxVal *100)
+    var color = myColor(String(data['children'][i+1]['numT']) /maxnmuT *100)
 
 
 
